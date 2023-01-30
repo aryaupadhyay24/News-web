@@ -19,9 +19,9 @@ const NewsItem = () => {
         console.log(p);
         setData(p);
 
-        p.map((d)=>{
-            console.log(d)
-        })
+        // p&&p.map((d)=>{
+        //     console.log(d)
+        // })
 
     })
 }
@@ -41,9 +41,9 @@ const NewsItem = () => {
            console.log(p);
            setData(p);
    
-           p.map((d)=>{
-               console.log(d)
-           })
+        //    pp.map((d)=>{
+        //        console.log(d)
+        //    })
    
        })
     }
@@ -58,9 +58,9 @@ const NewsItem = () => {
            console.log(p);
            setData(p);
    
-           p.map((d)=>{
-               console.log(d)
-           })
+        //    p.map((d)=>{
+        //        console.log(d)
+        //    })
    
        })
     }
@@ -72,7 +72,7 @@ const NewsItem = () => {
             <h3 style={{textAlign:"center"}}>this is newsitem hwere nes to be feed</h3>
             <div className="container my-3">
             <div className="row">
-                {data.map(user=>(
+                {data && data.map(user=>(
                     
                     // {console.log(user)};
                     // {console.log("hello")};
